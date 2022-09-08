@@ -1,7 +1,7 @@
 /**
 * main-is the entry
 *
-*Return:the programm will return zero if there isn't any problem
+*Return:the programm will return one if there isn't any problem
 */
 
 #include <stdio.h>
