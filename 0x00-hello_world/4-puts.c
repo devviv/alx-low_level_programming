@@ -1,6 +1,8 @@
 /**
  * This programme consist to to display a sentence using puts function
-*This is the code below
+ * main-is the entry
+ * Return:the programm will return zero if there isn't any problem
+ *This is the code below
 */
 
 #include <stdio.h>
