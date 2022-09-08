@@ -1,6 +1,7 @@
 /**
- * Programme to print on screen using printf function
- * main-is the entry                * Return:the programm will return zero if there isn't any problem
+* main-is the entry
+*
+*Return:the programm will return zero if there isn't any problem
 */
 
 #include <stdio.h>
