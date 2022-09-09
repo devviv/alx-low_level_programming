@@ -1,8 +1,12 @@
-/**                                 * main-is the entry                *                                  * Return:the programm will return zero                               */
+/**
+*main-program entry point.
+*
+*Return: 1 when there is any trouble.
+*/
 
-#include <stdio.h>
+#include <unistd.h>
 int main(void)
 {
-sprintf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 return (1);
 }
