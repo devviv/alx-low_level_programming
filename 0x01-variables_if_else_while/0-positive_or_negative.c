@@ -1,5 +1,5 @@
 /**
- * main-is entry
+ *main- is entry
  *
  * return-it will return zero if there is any troubles
  */
