@@ -5,21 +5,16 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 int main(void)
 {
-char A[] = "abcdefghijklmnopqrstuvwxyz";
+char A[] = "abcdefghijklmnopqrstuvwxyz ";
 char *p;
 int i;
 p = A;
-for (i = 0 ; i <= 25 ; i++)
+for (i = 25 ; i >= 0; i--)
 {
 putchar(*p + i);
 }
 putchar('\n');
-for (i = 0 ; i <= 25 ; i++)
-{
-putchar(toupper(*p + i));
-}
 return (0);
 }

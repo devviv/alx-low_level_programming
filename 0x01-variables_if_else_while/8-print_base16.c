@@ -5,21 +5,23 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 int main(void)
 {
-char A[] = "abcdefghijklmnopqrstuvwxyz";
+char A[] = "0123456789";
+char B[] = "abcdef";
 char *p;
+char *q;
 int i;
 p = A;
-for (i = 0 ; i <= 25 ; i++)
+q = B;
+for (i = 0 ; i <= 9; i++)
 {
 putchar(*p + i);
 }
-putchar('\n');
-for (i = 0 ; i <= 25 ; i++)
+for (i = 0 ; i <= 5 ; i++)
 {
-putchar(toupper(*p + i));
+putchar(*q + i);
 }
+putchar('\n');
 return (0);
 }
