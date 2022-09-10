@@ -16,10 +16,10 @@ for (i = 0 ; i <= 25 ; i++)
 {
 putchar(*p + i);
 }
-putchar('\n');
 for (i = 0 ; i <= 25 ; i++)
 {
 putchar(toupper(*p + i));
 }
+putchar('\n');
 return (0);
 }
