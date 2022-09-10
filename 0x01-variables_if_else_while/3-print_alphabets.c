@@ -1,7 +1,7 @@
 /**
 *main- is entry
 *
-* Return: it will return zero if there is any troubles
+*Return: it will return zero if there is any troubles
 */
 #include <stdio.h>
 #include <stdlib.h>
