@@ -1,23 +1,23 @@
 /**
-*main- is entry
-*
-* return-it will return zero if there is any troubles
+ *main-is the entry
+ *
+ *Return: it will return zero if there is any troubles
 */
 #include <stdio.h>
 #include <stdlib.h>
-int main ()
+int main(void)
 {
-char A[]= "abcdefghijklmnopqrstuvwxyz";
+char A[] = "abcdefghijklmnopqrstuvwxyz";
 char *p;
 int i;
-p=A;
-for (i=0;i<=25;i++)
+p = A;
+for (i = 0 ; i <= 25 ; i++)
 {
-if((*p+i) != 'e' && (*p+i) != 'q')
+if ((*p + i) != 'e' && (*p + i) != 'q')
 {
-putchar(*p+i);
+putchar(*p + i);
 }
 }
 putchar('\n');
-return 0 ;
+return (0);
 }

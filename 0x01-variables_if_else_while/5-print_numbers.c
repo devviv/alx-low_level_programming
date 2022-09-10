@@ -1,17 +1,16 @@
 /**
-*main- is entry
-*
-* return-it will return zero if there is any troubles
+ *main-is the entry
+ *
+ *Return: it will return zero if there is any troubles
 */
 #include  <stdio.h>
-int main ()
+int main(void)
 {
 int i;
-for (i = 0;i<10;i++)
+for (i = 0 ; i < 10 ; i++)
 {
- printf("%d", i);
+printf("%d", i);
 }
-
-return 0 ;
+printf("\n");
+return (0);
 }
-

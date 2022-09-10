@@ -1,8 +1,8 @@
 /**
 *main- is entry
 *
-* return-it will return zero if there is any troubles
-* /
+* Return: it will return zero if there is any troubles
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -19,7 +19,7 @@ putchar(*p+i);
 for (i = 0;i <= 25;i++)
 {
 putchar(toupper (*p+i));
-} 
+}
 putchar('\n');
-return 0 ;
-} 
+return (0) ;
+}
