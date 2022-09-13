@@ -1,11 +1,11 @@
+#include <unistd.h>
 /**
- *main-is the entry
+ * main - this program prints putchar using putchar function
  *
- *Return: it will return zero if there is any troubles
-*/
-#include <stdio.h>
+ * Return: 0
+ */
 int main(void)
 {
-printf("_putchar\n");
+write(1, "_putchar\n", 9);
 return (0);
 }

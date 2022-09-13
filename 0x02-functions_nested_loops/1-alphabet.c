@@ -1,12 +1,17 @@
+#include <unistd.h>
+#include "main.h"
 /**
- *main-is the entry
+ * print_alphabet - this program prints alphabet
  *
- *Return: it will return zero if there is any troubles
-*/
-#include <stdio.h>
-int main(void)
+ * Return: 0
+ */
+void print_alphabet(void)
 {
-printf("_putchar\n");
-return (0);
+char alfa = 'a';
+while (alfa <= 'z')
+{
+write(1, &alfa, 1);
+alfa++;
 }
-
+write(1, "\n", 1);
+}
