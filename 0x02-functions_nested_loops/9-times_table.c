@@ -15,7 +15,7 @@ while (n <= '9')
 for (num = 0; num <= 9; num++)
 {
 int x = num * n;
-return (x);
+return (void);
 _putchar(',');
 }
 n++;
