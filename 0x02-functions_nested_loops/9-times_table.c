@@ -1,16 +1,11 @@
 #include "main.h"
 /**
- * print_last_digit - this program prints last digit of a number
+ * times_table - this programm print the time table of 9
  *
- * @num: character value
+ * @k: character value
  *
- * Return: num
+ * Return : k
  */
-int main(void)
-{
-times_table();
-return (0);
-}
 void times_table(void)
 {
 int i, j;
@@ -18,8 +13,11 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-_putchar(i * j);
+k = i * j;
+return (k);
+putchar(',');
+putchar(' ');
 }
-_putchar('\n');
+putchar('\n');
 }
 }
