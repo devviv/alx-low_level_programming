@@ -13,7 +13,7 @@ sum_1 = 1;
 printf("%ld, ", sum_1);
 sum_2 = sum_1 + sum_1;
 printf("%ld, ", sum_2);
-for (i = 0; i < 48;)
+for (i = 0; i < 47;)
 {
 sum_1 += sum_2;
 printf("%ld, ", sum_1);
