@@ -20,7 +20,7 @@ printf("%ld, ", sum_1);
 sum_2 += sum_1;
 printf("%ld, ", sum_2);
 i++;
-if (i == 48)
+if (i == 47)
 {
 sum_1 += sum_2;
 printf("%ld, ", sum_1);
