@@ -28,6 +28,6 @@ sum_2 += sum_1;
 printf("%ld", sum_2);
 }
 }
-printf("\n \a");
+printf("\n");
 return (0);
 }

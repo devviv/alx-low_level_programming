@@ -2,22 +2,23 @@
 /**
  * times_table - this programm print the time table of 9
  *
- * @k: character value
  *
- * Return : k
+ *
+ * Return: num
  */
 void times_table(void)
 {
-int i, j;
-for (i = 0; i <= 9; i++)
+int n = 0;
+int num;
+while (n <= '9')
 {
-for (j = 0; j <= 9; j++)
+for (num = 0; num <= 9; num++)
 {
-k = i * j;
-return (k);
-putchar(',');
-putchar(' ');
+int x = num * n;
+return (x);
+_putchar(',');
 }
-putchar('\n');
+n++;
+num = '0';
 }
 }
