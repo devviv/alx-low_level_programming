@@ -10,7 +10,9 @@ int i, j, k, l;
 i = j = k = l = 0;
 for (i = 0; i < 3; i++)
 {
-for (j = 0; j < 4; j++)
+if (i < 2)
+{
+for (j = 0; j < 9; j++)
 {
 for (k = 0; k < 6; k++)
 {
@@ -21,7 +23,8 @@ _putchar(j + '0');
 _putchar(':');
 _putchar(k + '0');
 _putchar(l + '0');
-_putchar('\n');
+printf("\n");
+}
 }
 }
 }
