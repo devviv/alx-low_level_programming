@@ -1,29 +1,32 @@
 #include "main.h"
 /**
- * print_line - this program prints line
+ * print_diagonal - this function multiplies two values
  *
- *@n: character value
- *
- *
- * Return: num
+ * @n: value
  */
-void print_line(int n)
+
+void print_diagonal(int n)
 {
-int l, e;
-if (n > 0)
-{
-for (l = 0; l < n; l++)
-{
-for (e = 0; e <= l; e++)
-{
-_putchar(' ');
-}
-_putchar('92');
-_putchar('\n');
-}
-}
-else
-{
-_putchar('\n');
-}
+	int spaces = 0;
+	int lines = 0;
+
+	if (n > 0)
+	{
+		while (lines < n)
+		{
+			while (spaces < lines)
+			{
+				_putchar(' ');
+				spaces++;
+			}
+			_putchar('\\');
+			_putchar('\n');
+			spaces = 0;
+			lines++;
+		}
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
