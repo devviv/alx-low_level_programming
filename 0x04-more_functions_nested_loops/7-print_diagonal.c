@@ -9,8 +9,8 @@
  */
 void print_line(int n)
 {
-int i;
-for (i = 0; i < n; i++)
+int l, e;
+for (l = 0; l < n; l++)
 {
 for (e = 0; e < l; e++)
 {
