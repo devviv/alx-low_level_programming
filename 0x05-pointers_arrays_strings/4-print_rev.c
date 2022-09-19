@@ -16,7 +16,7 @@ i++;
 j = i;
 for (j = i; j >= 0; j--)
 {
-putchar(*(s + j));
+_putchar(*(s + j));
 }
-putchar('\n');
+_putchar('\n');
 }
