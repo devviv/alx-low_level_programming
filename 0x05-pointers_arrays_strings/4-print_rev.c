@@ -14,9 +14,9 @@ while (*(s + i) != '\0')
 i++;
 }
 j = i;
-for (j = i; i >= 0; i--)
+for (j = i; j >= 0; j--)
 {
-putchar(*(s + i));
+putchar(*(s + j));
 }
 putchar('\n');
 }
