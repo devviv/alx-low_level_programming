@@ -28,5 +28,6 @@ for (i = (n - 1) / 2; i < n; i++)
 _putchar(*(str + i));
 }
 }
+_putchar('\n');
 }
 
