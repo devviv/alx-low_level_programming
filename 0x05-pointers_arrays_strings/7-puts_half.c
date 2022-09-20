@@ -6,13 +6,13 @@
 #include "main.h"
 void puts_half(char *str)
 {
-int i;
+int i, n;
 i = 0;
 while (*(str + i) != '\0')
 {
 i++;
 }
-int n = i;
+n = i;
 i = 0;
 if (n % 2 == 0)
 {
