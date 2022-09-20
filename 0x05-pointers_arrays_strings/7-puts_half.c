@@ -9,7 +9,7 @@ void puts_half(char *str)
 int i, j, len;
 i = 0;
 char *new_string[100];
-while (*(s + i) != '\0')
+while (*(str + i) != '\0')
 {
 i++;
 }
@@ -19,7 +19,7 @@ if (n % 2 == 0)
 {
 for (i = n / 2; i < n; i++)
 {
-putchar()
+_putchar()
 }
 }
 }
