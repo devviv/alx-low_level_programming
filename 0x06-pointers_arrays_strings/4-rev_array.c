@@ -4,6 +4,7 @@
 *@n: value
 * Return: Always 0.
 */
+#include "main.h"
 void reverse_array(int *a, int n)
 {
 int i, j, Tab[n];
