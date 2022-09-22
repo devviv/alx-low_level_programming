@@ -26,3 +26,4 @@ dest[Len + i] = src[i];
 dest[Len + i] = '\0';
 return (dest);
 }
+
