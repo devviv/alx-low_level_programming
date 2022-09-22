@@ -2,7 +2,7 @@
 * _strcat - append a string to another
 *@dest: string
 *@src: string
-* Return: Always 0.
+* Return: nothing
 */
 #include "main.h"
 char *_strcat(char *dest, char *src)
@@ -26,4 +26,3 @@ dest[Len + i] = src[i];
 dest[Len + i] = '\0';
 return (dest);
 }
-

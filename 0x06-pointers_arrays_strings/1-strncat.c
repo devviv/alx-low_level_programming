@@ -3,7 +3,7 @@
 *@dest: string
 *@src: string
 *@n: value
-* Return: Always 0.
+* Return: nothing
 */
 #include "main.h"
 char *_strncat(char *dest, char *src, int n)
@@ -15,9 +15,11 @@ while (*(dest + i) != '\0')
 i++;
 }
 Len = i;
-for (i = 0; i < n; i++)
+i = 0;
+while (*(dest + i) != '\0' && i < n)
 {
 dest[Len + i] = src[i];
+i++;
 }
 dest[Len + i] = '\0';
 return (dest);
