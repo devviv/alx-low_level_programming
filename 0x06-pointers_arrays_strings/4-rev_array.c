@@ -2,7 +2,7 @@
 * reverse_array - reverse elements of an array
 *@a: array
 *@n: value
-* Return: Always 0.
+* Return: nothing
 */
 #include "main.h"
 void reverse_array(int *a, int n)
