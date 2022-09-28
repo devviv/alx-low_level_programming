@@ -12,4 +12,8 @@ _putchar(*s);
 s++;
 _puts_recursion(s);
 }
+if (*s == '\0')
+{
+_putchar('\n');
+}
 }
