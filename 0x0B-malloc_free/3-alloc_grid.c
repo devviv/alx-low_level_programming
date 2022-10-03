@@ -3,12 +3,13 @@
 #include <stdlib.h>
 
 /**
- * _strdup - duplicate a string
- *@str: string
+ * alloc_grid - returns a pointer to a 2 dimensional array of integers
+ *@width: value
+ *@height: value
  * Return: a pointer
  */
 
-char *_strdup(char *str)
+int **alloc_grid(int width, int height)
 {
 
 }

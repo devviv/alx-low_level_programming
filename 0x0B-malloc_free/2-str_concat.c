@@ -3,12 +3,13 @@
 #include <stdlib.h>
 
 /**
- * _strdup - duplicate a string
- *@str: string
+ * str_concat - concatenates two strings
+ *@s1: string
+ *@s2: string
  * Return: a pointer
  */
 
-char *_strdup(char *str)
+char *str_concat(char *s1, char *s2)
 {
 
 }
