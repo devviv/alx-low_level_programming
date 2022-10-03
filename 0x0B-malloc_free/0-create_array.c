@@ -14,7 +14,7 @@ char *ar;
 unsigned int i;
 i = 0;
 ar = malloc(size * sizeof(char));
-if ( size > 0)
+if (size > 0)
 {
 if (ar != NULL)
 {
@@ -24,6 +24,10 @@ ar[i] = c;
 i++;
 }
 return (ar);
+}
+else
+{
+return (NULL);
 }
 }
 else
