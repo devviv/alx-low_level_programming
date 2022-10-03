@@ -14,7 +14,7 @@ char *ar;
 unsigned int i;
 ar = malloc(size * sizeof(char));
 i = 0;
-if (size)
+if (ar != NULL)
 {
 while (i < size)
 {
