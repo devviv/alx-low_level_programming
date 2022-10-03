@@ -21,12 +21,10 @@ while (i < size)
 ar[i] = c;
 i++;
 }
-free(ar);
 return (ar);
 }
 else
 {
-free(ar);
 return (NULL);
 }
 }
