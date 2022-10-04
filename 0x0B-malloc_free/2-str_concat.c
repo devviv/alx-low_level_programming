@@ -14,8 +14,8 @@ char *str_concat(char *s1, char *s2)
 char *ptr;
 int i;
 int j;
-int len;
-int len;
+int len1;
+int len2;
 len1 = 0;
 len2 = 0;
 i = 0;
