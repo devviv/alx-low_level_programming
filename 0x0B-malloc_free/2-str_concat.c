@@ -28,7 +28,7 @@ while (*(s1 + len1) != '\0')
 {
 len1++;
 }
-if (s1 != NULL || s2 != NULL)
+if (s1 != NULL && s2 != NULL)
 {
 ptr = malloc(((len1 + len2) *sizeof(char)) + 1);
 while (*(s1 + i) != '\0')
