@@ -3,13 +3,14 @@
 #include <stdlib.h>
 
 /**
- * free_grid - frees a 2 dimensional grid previously
- *@grid: value
- *@height: value
+ * _realloc - reallocates a memory block using malloc and free
+ *@old_size: value
+ *@ptr: pointer
+ *@new_size: value
  * Return: nothing
  */
 
-void free_grid(int **grid, int height)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 {
 
 }
