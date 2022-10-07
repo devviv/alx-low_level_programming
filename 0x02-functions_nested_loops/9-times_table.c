@@ -16,28 +16,28 @@ int i, j, k;
 		{
 			if ((i * j) >= 10)
 			{
-				putchar(' ');
-				putchar(((i * j) / 10) + '0');
-				putchar(((i * j) % 10) + '0');
+				_putchar(' ');
+				_putchar(((i * j) / 10) + '0');
+				_putchar(((i * j) % 10) + '0');
 				if (j != 9)
 				{
-					putchar(',');
+					_putchar(',');
 				}
 			}
 			else
 			{
 				if (j != 0)
 				{
-					putchar(' ');
-					putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
 				}
-				putchar((i * j) + '0');
+				_putchar((i * j) + '0');
 				if (j != 9)
 				{
-					putchar(',');
+					_putchar(',');
 				}
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
