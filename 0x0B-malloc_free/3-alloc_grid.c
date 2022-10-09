@@ -17,7 +17,7 @@ int j;
 i = 0;
 if (width > 0 && height > 0)
 {
-*ar = (int *)malloc((height + width) * sizeof(int));
+/**ar = (int *)malloc((height + width) * sizeof(int));*/
 for (i = 0; i < height; i++)
 {
 for (j = 0; j < width; j++)
