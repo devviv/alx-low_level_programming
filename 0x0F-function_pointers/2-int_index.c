@@ -13,12 +13,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		return (-1);
 	}
-	int (**ptr_cmp)(int);
-
-	ptr_cmp = &(cmp);
 	for (index = 0; index < size; index++)
 	{
-		(*ptr_cmp) = (int *)(int)((array[index]));
+		if (!array || !cmp)
+		{
+			cmp = ((array[index]));
+			return (index);
+		}
 	}
-	return (index);
 }
