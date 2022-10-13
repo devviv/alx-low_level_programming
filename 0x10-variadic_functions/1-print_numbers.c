@@ -15,12 +15,13 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		if (separator == NULL)
 		{
-			printf("%u\n", va_arg(args, int));
+			printf("%u", va_arg(args, int));
 		}
 		else
 		{
-			printf("%u%s\n", va_arg(args, int), separator);
+			printf("%u%s", va_arg(args, int), separator);
 		}
 	}
+	printf("\n");
 	va_end(args);
 }
