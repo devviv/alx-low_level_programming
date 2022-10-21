@@ -9,7 +9,6 @@
 */
 size_t list_len(const list_t *h)
 {
-	h = malloc(sizeof(list_t));
 	size_t length;
 
 	while (h != NULL)
