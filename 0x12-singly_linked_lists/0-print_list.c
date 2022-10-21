@@ -8,16 +8,9 @@
 */
 size_t print_list(const list_t *h)
 {
-	h = malloc(sizeof(list_t));
 	size_t  number;
 
 	number = 0;
-	if (h == NULL)
-	{
-		return (0);
-	}
-	else
-	{
 		while (h != NULL)
 		{
 			if (h->str == NULL)
@@ -27,11 +20,10 @@ size_t print_list(const list_t *h)
 			else
 			{
 				printf("%s", h->str);
-				printf("[%d]", h->len);
+				printf("[%u]", h->len);
 			}
 			h = h->next;
 			number++;
 		}
-	}
 	return (number);
 }
