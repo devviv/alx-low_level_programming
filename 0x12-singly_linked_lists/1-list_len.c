@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
-#include "list.h"
+#include "lists.h"
 /**
 * list_len - find s length of a list
 *@h : the list
