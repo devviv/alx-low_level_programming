@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "list.h"
+#include "lists.h"
 /**
 * free_list - add a node at the beginning of a list
 *@head : free a list

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "list.h"
+#include "lists.h"
 /**
 * add_node - add a node at the beginning of a list
 *@head : the list
