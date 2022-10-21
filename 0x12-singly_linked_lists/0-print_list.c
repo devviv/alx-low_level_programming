@@ -8,6 +8,7 @@
 */
 size_t print_list(const list_t *h)
 {
+	h = malloc(sizeof(list_t));
 	size_t  number;
 
 	number = 0;

@@ -12,14 +12,10 @@ size_t list_len(const list_t *h)
 	h = malloc(sizeof(list_t));
 	size_t length;
 
-	if (h != NULL)
+	while (h != NULL)
 	{
-		while (h != NULL)
-		{
-			length++;
-			h = h->next;
-		}
+		length++;
+		h = h->next;
 	}
-	(unsigned long)length;
 	return (length);
 }
