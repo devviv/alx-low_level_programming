@@ -9,7 +9,7 @@
 size_t print_list(const list_t *h)
 {
 	h = malloc(sizeof(list_t));
-	int number;
+	size_t  number;
 
 	number = 0;
 	if (h == NULL)
@@ -20,20 +20,17 @@ size_t print_list(const list_t *h)
 	{
 		while (h != NULL)
 		{
-			while (h->str == NULL)
+			if (h->str == NULL)
 			{
 				printf("[0] (nil)");
-				printf("%d", h->len);
-				h = h->next;
-				number += 2;
 			}
-			while (h->str != NULL)
+			else
 			{
 				printf("%s", h->str);
-				printf("%d", h->len);
-				h = h->next;
-				number += 2;
+				printf("[%d]", h->len);
 			}
+			h = h->next;
+			number++;
 		}
 	}
 	return (number);
