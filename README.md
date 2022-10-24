@@ -1,1 +1,1 @@
-Projet for C loops
+Repository for c programming 
