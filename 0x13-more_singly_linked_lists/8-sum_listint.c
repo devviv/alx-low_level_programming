@@ -3,19 +3,20 @@
 #include <stdio.h>
 #include "lists.h"
 /**
-*free_listint2 - free a list
+*sum_listint - find the sum list's element
 *@head : the list
-*Return: nothing
+*Return: sum
 */
-void free_listint2(listint_t **head)
+int sum_listint(listint_t *head)
 {
-	listint_t *help;
+	int sum;
 
+	 sum = 0;
 	while (head)
 	{
-		help = (*head)->next;
-		free((void *)(*head)->n);
-		free(head);
-		head = NULL;
+		sum += head->n;
+		head->next;
 	}
+
+	return (sum);
 }
