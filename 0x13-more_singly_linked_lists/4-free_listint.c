@@ -3,12 +3,11 @@
 #include <stdio.h>
 #include "lists.h"
 /**
-*add_nodeint_end - add a node at ent of list
+*free_listint - free a list
 *@head : the list
-*@n : the element to be added
-*Return: the list
+*Return: nothing
 */
-listint_t *add_nodeint_end(listint_t **head, const int n)
+void free_listint(listint_t *head)
 {
 	listint_t *help;
 
