@@ -15,7 +15,6 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	while (head)
 	{
 		help = head->next;
-		free(head->n);
 		free(head);
 		head = help;
 	}
