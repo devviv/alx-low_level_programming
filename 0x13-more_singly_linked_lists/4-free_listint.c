@@ -10,20 +10,13 @@
 */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
-	listint_t **element;
+	listint_t *help;
 
-	(*element)->n = n;
-	(*element)->next = NULL;
-
-	listint_t **help;
-
-	help = head;
-
-	while (help != NULL)
+	while (head)
 	{
-		(*help) = (*help)->next;
+		help = head->next;
+		free(head->n);
+		free(head);
+		head = help;
 	}
-	(*help)->next = (*element);
-
-	return (*head);
 }
